@@ -1,0 +1,22 @@
+package calc_triangle;
+
+public class Retangle {
+	public double width; 
+	public double heigth; 
+	
+	//Function return the area of the rectangle
+	public double Area() {
+		return width *heigth;
+	}
+	
+	//function return the perimeter of the rectangle
+	public double Perimeter() {
+		double perimeter;
+		perimeter = Math.sqrt(width) * Math.sqrt(heigth);
+		return perimeter;
+	}
+	
+	
+	
+
+}

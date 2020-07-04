@@ -1,0 +1,25 @@
+package Application;
+
+import java.util.Scanner;
+
+public class program {
+
+	public static void main(String[] args) {
+		System.out.println("Enter retangle width and heigth:\n");
+		Scanner sc = new Scanner(System.in);
+		
+		int num = sc.nextInt();
+		System.out.println("numero digitado: "+ num);
+		
+		
+		
+		
+		
+		
+		sc.close();
+		
+		
+
+	}
+
+}
